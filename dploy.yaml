@@ -1,0 +1,11 @@
+master:
+    scheme: ftp
+    host: ndeye.jeffnys.fr
+    port: 21
+    user: ndeye
+    pass: h160Oy5kAFCN
+    check: true
+    exclude: ["dploy.yaml",".gitignore"]
+    path:  
+        remote: public_html/
+
