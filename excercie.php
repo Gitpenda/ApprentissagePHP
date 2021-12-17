@@ -11,6 +11,14 @@
 <?php include("./partiel/_navBar.php");?>
 <div class="container">
 <h1>Page des exo</h1>
+<h2>Les excercices en php</h2>
+<ol>
+   
+<li>premier excercice: si vous voyez ce site, c'est ce que c'est fait</li>
+<li><a href="/exo2.php">exercie 2</a>décoder les chaines de caractéres</li>
+<li><a href="/exo3.php">exercie 3</a>les tableaux</li>
+<li><a href="/exo3.php">exercie 4</a>Création de table de vigenère</li>
+</ol>
 </div>
    
 <script src="/JS/bootstrap.bundle.min.js"></script>    

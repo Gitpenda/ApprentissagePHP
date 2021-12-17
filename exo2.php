@@ -9,12 +9,7 @@
 </head>
 <body>
       
-<?php include("./partiel/_navBar.php");?>
-  
-    <div class="container">
-    <h1>Exercice 2</h1>
-    <h3>Décoder des messages</h3>
-        <p>les messages à décoder</p>
+<li><a href="/exo3.php">exercie 3</a>les tableaux</li>ssages à décoder</p>
         <?php
         $message1 = "0@sn9sirppa@#?ia'jgtvryko1";
         $message2 = "q8e?wsellecif@#?sel@#?setuotpazdsy0*b9+mw@x1vj";

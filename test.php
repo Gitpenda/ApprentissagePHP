@@ -8,6 +8,10 @@
     <title>test</title>
 </head>
 <body>
+
+       
+
+
     
 <?php include("./partiel/_navBar.php");?>
 

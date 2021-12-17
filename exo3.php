@@ -12,25 +12,10 @@
 <?php include("./partiel/_navBar.php");?>
   
     <div class="container">
-    <h1>Page prise de note</h1>
-</div>
 
-Jeff Nys
+    <h1>Exercice 3</h1>
 
-    Accueil
-    Connexion
-
-php – énoncé exercice 3
-
-par Jeff Nys | php
-
-Vu ici:
-
-    enoncé de l’exercice
-
-le code à recopier pour l’exercice
-<h1>Exercice 3</h1>
-        <?php
+    <?php
         $tab1 = ["moteur", "carotte", "haricot", "pomme de terre", "usine", "salade", "navet", "marteau"];
         ?>
         <p>voici les éléments du tableau de base:
@@ -49,8 +34,11 @@ le code à recopier pour l’exercice
         <p>retirer les 3 intrus: et afficher les valeurs</p>
         <p>résultat:
             <?php
-            // TO DO
-            ?>
+  
+   array_splice($tab1, 4, 1 );
+   array_shift($tab1);
+   array_pop($tab1);
+?>
         <ul>
             <li><?php echo $tab1[0]; ?></li>
             <li><?php echo $tab1[1]; ?></li>
@@ -60,44 +48,59 @@ le code à recopier pour l’exercice
         </ul>
         </p>
         <h3>Second exercice:</h3>
+
         <p>transformaer la chaîne de caractère "bleu, vert, noir, rouge, jaune" en un tableau</p>
         <p>ajouter en première position du tableau la valeur "violet"</p>
+
+
         <p>résultat:
             <?php
-            // TO DO
+            
+            $startString= "bleu, vert, noir, rouge, jaune";
+            $tab2 = explode(", ", $startString);
+            array_unshift($tab2, "violet");
             ?>
-            <!--            <ul>
-                <li><?php // echo $tab1[0]; 
-                    ?></li>
-                <li><?php // echo $tab1[1]; 
-                    ?></li>
-                <li><?php // echo $tab1[2]; 
-                    ?></li>
-                <li><?php // echo $tab1[3]; 
-                    ?></li>
-                <li><?php // echo $tab1[4]; 
-                    ?></li>
-                <li><?php // echo $tab1[5]; 
-                    ?></li>
-            </ul> -->
+         
+         <ul>
+            <li><?php echo $tab2[0]; ?></li>
+            <li><?php echo $tab2[1]; ?></li>
+            <li><?php echo $tab2[2]; ?></li>
+            <li><?php echo $tab2[3]; ?></li>
+            <li><?php echo $tab2[4]; ?></li>
+            <li><?php echo $tab2[5]; ?></li>
+            
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </p>
 
- 
-Poster le commentaire
+        
 
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
 
-Enregistrer mon nom, mon e-mail et mon site dans le navigateur pour mon prochain commentaire.
 
-Catégories
 
-    php
-    php-mysql
-    php-poo
-    projet php – poo
-    Symfony
 
-Design de Elegant Themes | Propulsé par WordPress
+
+
+
+
+</div>
+
+
+
+        
 
     <script src="/JS/bootstrap.bundle.min.js"></script>
 </body>
