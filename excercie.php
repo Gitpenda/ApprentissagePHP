@@ -17,9 +17,18 @@
 <li>premier excercice: si vous voyez ce site, c'est ce que c'est fait</li>
 <li><a href="/exo2.php">exercie 2</a>décoder les chaines de caractéres</li>
 <li><a href="/exo3.php">exercie 3</a>les tableaux</li>
-<li><a href="/exo3.php">exercie 4</a>Création de table de vigenère</li>
+<li><a href="/exo4.php">exercie 4</a>Création de table de vigenère</li>
+<li><a href="/exo5.php">exercie 5</a>Création de formulaires</li>
+<li><a href="/algo1.php">algo1</a>Algorithme</li>
+<li><a href="/exo6.php">exercie 6</a>La boucle while</li>
 </ol>
 </div>
+
+
+
+
+
+
    
 <script src="/JS/bootstrap.bundle.min.js"></script>    
 </body>
