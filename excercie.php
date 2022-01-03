@@ -21,6 +21,10 @@
 <li><a href="/exo5.php">exercie 5</a>Création de formulaires</li>
 <li><a href="/algo1.php">algo1</a>Algorithme</li>
 <li><a href="/exo6.php">exercie 6</a>La boucle while</li>
+<li><a href="/aboutFonction.php">Cours Pratique</a>Les Fonctions</li>
+<li><a href="/exo7.php">exercie 7</a>Codage et Décodage</li>
+<li><a href="/inscription.php">Inscription</a></li>
+<li><a href="/connexion.php">Connexion</a></li>
 </ol>
 </div>
 

@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">le site de NPS</a>
@@ -18,6 +25,27 @@
         <li class="nav-item ">
           <a class="nav-link active" href="/note.php">notes</a>
         </li>
+        <!-- <?php if ($_SESSION["user"]) :
+                    if (in_array("ROLE_ADMIN", $_SESSION["user"]["role"])) : ?>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/admin.php">admin</a>
+                        </li>
+                    <?php endif ?>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/compte.php">mon compte</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link btn btn-secondary text-dark" href="/deconnexion.php">deconnexion</a>
+                    </li>
+                <?php else : ?>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/inscription.php">inscription</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link btn btn-success" href="/connexion.php">connexion</a>
+                    </li>
+                <?php endif ?> -->
+        
       </ul>
     </div>
   </div>

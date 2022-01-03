@@ -11,9 +11,6 @@
 <?php
 
 
-
-
-
 $message = "";
 $key = "";
 $encodedMessage = "";

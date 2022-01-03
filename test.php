@@ -8,7 +8,10 @@
     <title>test</title>
 </head>
 <body>
-
+    <!-- les droits d'accés -->
+$data = openDB();
+var_dump($data);
+writeDB($data);
        
 
 
